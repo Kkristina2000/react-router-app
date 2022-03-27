@@ -1,0 +1,49 @@
+.formAddEvent{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:300px;
+    height:100px;
+    background-color:black;
+    text-align:center;
+    border:1px solid #3498db;
+    border-radius:10px;
+}
+.addEvent__input{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border-bottom:1px solid #3498db;
+    width:200px;
+    outline:none;
+    color:white;
+    transition:0.25s;
+}
+.addEvent__input:focus{
+    width:150px;
+    border-color:#2ecc71;
+}
+.addEvent__buttons{
+    display:flex;
+}
+.addEvent__button{
+    color:white;
+    border:0;
+    background:none;
+    display:block;
+    margin:auto;
+    text-align:center;
+    border:2px solid #3498db;
+    width:80px;
+    outline:none;
+    color:white;
+    border-radius:20px;
+    transition:0.25s;
+}
+.addEvent__button:hover{
+    background:#3498db;
+    font-weight:bold;
+}

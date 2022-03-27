@@ -1,0 +1,28 @@
+.toggle{
+    display: flex;
+    padding:30px 30px;
+    background-color:white;
+}
+.toggle-mounth{
+    display:flex;
+    margin:0px 10px 0px 0px;
+}
+.toggle-mounth__button{
+    background-color:white;
+    border-radius:3px;
+    border:1px solid;
+}
+.icon-toggle{
+    width:10px;
+    height:10px;
+}
+.toggle-mounth__text{
+    padding:0px 3px;
+    font-weight:600;
+    font-size:20px;
+}
+.toggle-today{
+    background-color:white;
+    border-radius:3px;
+    border:1px solid;
+}

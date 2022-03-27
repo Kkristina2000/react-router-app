@@ -1,0 +1,20 @@
+.profile{
+    margin:0px;
+    top:50%;
+    left:50%;
+    display:flex;
+    justify-content:center;
+}
+.profile__name{
+    color:white;
+    font-size:22px;
+    margin-top:20px;
+}
+.profile__photo{
+    position:absolute;
+    margin:0px;
+    top:20%;
+    left:40%;
+    width:300px;
+    border-radius:30px;
+}

@@ -1,0 +1,36 @@
+.calendar-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 20px 10px 20px;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-image-source: radial-gradient(  #000000 , gray,gray,#000000);
+    background-color:rgb(223, 223, 223);
+}
+.calendar-top__button{
+    background-color:blue;
+    border:1px solid blue;
+    font-weight:bold;
+    color:white;
+    margin:0px 10px;
+    padding:5px 10px;
+    border-radius:5px;
+}
+.calendar-top__button:hover{
+
+    border:2px solid black;
+}
+.calendar-top__search{
+    width:300px;
+    padding:10px;
+}
+.calendar-top__search{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.calendar-top__search-icon{
+    width:15px;
+    height:15px;
+}

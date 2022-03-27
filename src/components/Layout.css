@@ -1,0 +1,90 @@
+/*Обнуление стилей*/
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***************************************************/
+body {
+    height: 100%;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: black;
+}
+.wrapper{
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-image-source: radial-gradient(  #000000 , #2ecc71,#2ecc71,#000000);
+}
+[class*="_container"]{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+.header__navigation{
+    display: flex;
+}
+.navigation__link{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+.sec__container{
+    flex: 1 1 auto;
+}
+.footer{
+    background-color: black;
+}
