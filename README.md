@@ -1,5 +1,5 @@
 # react-router-app
-App on React and ReactRouter
+App on React
 
 ТЕСТОВОЕ ЗАДАНИЕ
 
